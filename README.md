@@ -1,16 +1,15 @@
-# Forja
-#### Asignatura: *Ingeniería Web: Visión General*
-#### [Máster en Ingeniería Web por la U.P.M.](http://miw.etsisi.upm.es)
+### Práctica de Software Colaborativo
+> Este proyecto pretende ser un ejemplo de preparación de una forja para el desarrollo de software colaborativo.  
+> [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)  
+> Asignatura: *Ingeniería Web: Visión General*
 
-### Tecnologías necesarias
-* Java
-* Maven
-* IntelliJ
-* GitHub
+### Arquitecta de software
+> [Xinyu.Li](https://github.com/L-Xinyu)  
 
-### Descripción
-Este proyecto pretende ser una plantilla maven para crear un proyecto
-1.- Descomprimir en la carpeta de trabajo
-1.- Editar el pom.xml y cambiarle el nombre del proyecto
-1.- Desde IntelliJ, `Import Project`, marcar `Create Project from external model` y elegir `Maven`
+### Documentación detallada
+> Mirar en la [wiki](../../wiki) del proyecto
 
+### Programadores
+> [Irati](https://github.com/iraticasi)  
+> [Bruno](https://github.com/BrunoML1991)  
+> [Alfredo](https://github.com/jajxa)
