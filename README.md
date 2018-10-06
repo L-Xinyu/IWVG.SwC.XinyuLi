@@ -13,3 +13,10 @@
 > [Irati](https://github.com/iraticasi)  
 > [Bruno](https://github.com/BrunoML1991)  
 > [Alfredo](https://github.com/jajxa)
+
+### Tecnologías necesarias
+* Java
+* Maven
+* GitHub
+* Travis-ci
+* Sonarcloud
