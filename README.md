@@ -15,8 +15,8 @@
 > [Alfredo](https://github.com/jajxa)
 
 ### Tecnologías necesarias
-* Java
-* Maven
-* GitHub
-* Travis-ci
-* Sonarcloud
+> * Java
+> * Maven
+> * GitHub
+> * Travis-ci
+> * Sonarcloud
