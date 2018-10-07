@@ -6,33 +6,39 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class UserTest {
 
-        private User user;
+    private User user;
 
-        @BeforeEach
-        void before() {
-            user = new User(1, "Bruno", "Martin");
-        }
+    @BeforeEach
+    void before() {
+        user = new User(1, "Bruno", "Martin");
+    }
 
-        @Test
-        void testUser() {
-            assertEquals(1, user.getNumber());
-            assertEquals("Bruno", user.getName());
-            assertEquals("Martin", user.getFamilyName());
-        }
+    @Test
+    void testUser() {
+        assertEquals(1, user.getNumber());
+        assertEquals("Bruno", user.getName());
+        assertEquals("Martin", user.getFamilyName());
+    }
 
-        @Test
-        void testFormat() {
-            user = new User(1, "bruno", "martin");
-            this.testUser();
-        }
+    @Test
+    void testFormat() {
+        user = new User(1, "bruno", "martin");
+        this.testUser();
+    }
 
-        @Test
-        void testFullName() {
-            assertEquals("Bruno Martin", user.fullName());
-        }
+    @Test
+    void testFullName() {
+        assertEquals("Bruno Martin", user.fullName());
+    }
 
-        @Test
-        void testInitials() {
-            assertEquals("B.", user.initials());
-        }
+    @Test
+    void testInitials() {
+        assertEquals("B.", user.initials());
+    }
+
+    @Test
+    void testUppercaseName() {
+        assertEquals("BRUNO", user.uppercaseName());
+    }
+
 }
