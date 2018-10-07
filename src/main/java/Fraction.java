@@ -30,4 +30,8 @@ public class Fraction {
         return this.numerator < this.denominator;
     }
 
+    public boolean compare(Fraction fraction) {
+        return this.numerator * fraction.getDenominator() == this.denominator * fraction.getNumerator();
+    }
+
 }

@@ -1,16 +1,14 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class FractionTest {
     private Fraction fraction;
 
     @BeforeEach
     void before() {
-        this.fraction = new Fraction(1,3);
+        this.fraction = new Fraction(1, 3);
     }
 
     @Test
@@ -25,8 +23,15 @@ public class FractionTest {
     }
 
     @Test
-    void testIsPropia(){
+    void testIsPropia() {
         assertTrue(this.fraction.isPropia());
-        assertFalse(new Fraction(2,2).isPropia());
+        assertFalse(new Fraction(2, 2).isPropia());
     }
+
+    @Test
+    void testCompare() {
+        assertTrue(this.fraction.compare(new Fraction(2, 6)));
+        assertFalse(this.fraction.compare(new Fraction(4, 6)));
+    }
+
 }
