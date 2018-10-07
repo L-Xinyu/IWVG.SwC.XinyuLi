@@ -50,4 +50,11 @@ class PointTest {
         assertEquals(2, point.getY());
     }
 
+    @Test
+    void testModifyCoordinate() {
+        point.modifyCoordinate(1, 1);
+        assertEquals(1, point.getX());
+        assertEquals(1, point.getY());
+    }
+
 }
